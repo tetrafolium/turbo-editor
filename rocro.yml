@@ -39,6 +39,8 @@ inspecode:
     thresholds:  { num-issues: 999 }
 
   spotbugs:
+    options:
+      --targets: gradle/wrapper/gradle-wrapper.jar
     auto-fix:    true
     thresholds:  { num-issues: 999 }
 
