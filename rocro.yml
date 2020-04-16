@@ -33,7 +33,9 @@ inspecode:
     thresholds:  { num-issues: 999 }
 
   pmd:
-    auto-fix:    true
+    #auto-fix:    true
+      # (-> codelift#1821)
+      # java.lang.StringIndexOutOfBoundsException: begin 29454, end 29443, length 55069
     thresholds:  { num-issues: 999 }
 
   spotbugs:
