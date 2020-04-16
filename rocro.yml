@@ -40,7 +40,7 @@ inspecode:
 
   spotbugs:
     options:
-      --targets: gradle/wrapper/gradle-wrapper.jar
+      -targets: gradle/wrapper/gradle-wrapper.jar
     auto-fix:    true
     thresholds:  { num-issues: 999 }
 
