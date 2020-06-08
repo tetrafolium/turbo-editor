@@ -16,6 +16,10 @@ inspecode:
   cpd:
     thresholds:  { num-issues: 999 }
 
+  #### not supported yet ??
+  #fortify:
+  #  thresholds:  { num-issues: 999 }
+
   fossology:
     thresholds:  { num-issues: 999 }
 
@@ -33,8 +37,8 @@ inspecode:
     thresholds:  { num-issues: 999 }
 
   pmd:
-    #auto-fix:    true
-      # (-> codelift#1821)
+    auto-fix:    true
+      # (-> codelift#1821 -> javalift#12)
       # java.lang.StringIndexOutOfBoundsException: begin 29454, end 29443, length 55069
     thresholds:  { num-issues: 999 }
 
@@ -47,6 +51,10 @@ inspecode:
   uncrustify:
     auto-fix:    true
     thresholds:  { num-issues: 999 }
+
+  #### not supported yet ??
+  #understand:
+  #  thresholds: { num-issues: 999 }
 
   unused:
     thresholds:  { num-issues: 999 }
