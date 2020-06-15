@@ -29,7 +29,7 @@ crashlytics-build.properties
 crashlytics.properties
 
 # Local configuration file (sdk path, etc)
-local.properties
+!local.properties
 
 # Gradle generated files
 .gradle/
