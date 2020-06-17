@@ -6,15 +6,12 @@ inspecode:
       -targets:
         - app
         - app-pro
-    auto-fix:    true
     thresholds:  { num-issues: 999 }
   - options:
       -targets:
         - app
-    auto-fix:    true
     thresholds:  { num-issues: 999 }
   - options:
       -targets:
         - app-pro
-    auto-fix:    true
     thresholds:  { num-issues: 999 }
